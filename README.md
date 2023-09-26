@@ -1,12 +1,14 @@
 # API Authentication Demo
 This little pepites project showcases using API Authentication using various methods like Basic Authentication (Username & Password), API Key and a Bearer Token.
 
-Progress
+### Progress
 
-[ ] Create basic logic
+- [x] Create basic logic
 
-[ ] Get API Responses in JSON format
+- [x] Get API Responses in JSON format
 
-[ ] Add ability for user to register to the API using registration form
+- [ ] Ability to accept user registration directly to the API
 
-[ ] 
+- [ ] Ability to create API Key and Bearer Token for registered Users
+- [ ] Ability to create Personal Secrets for registered Users
+- [ ] Ability to filter Responses based on Embarassment Scores
