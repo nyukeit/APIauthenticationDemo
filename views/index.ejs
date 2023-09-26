@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API Authentication</title>
+  <style>
+    .button {
+      border: none;
+      background: none;
+      padding: 10px;
+      color: aliceblue;
+    }
+    #noauth {
+      background-color: chocolate;
+    }
+    #basicauth {
+      background-color: crimson;
+    }
+    #apiauth {
+      background-color: blueviolet;
+    }
+    #tokenauth {
+      background-color: darkgreen;
+    }
+    .result {
+      text-wrap: wrap;
+      width: 50%;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>A small trial of how API Authentication works!</h1>
+    <div class="buttons">
+      <button class="button" id="noauth" onclick="window.location.href='/noauth'">No Auth</button>
+      <button class="button" id="basicauth" onclick="window.location.href='/basicauth'">Basic Auth</button>
+      <button class="button" id="apiauth" onclick="window.location.href='/apiauth'">API Auth</button>
+      <button class="button" id="tokenauth" onclick="window.location.href='tokenauth'">Token Auth</button>
+    </div>
+    <div class="result">
+      <h4>Result</h4>
+      <p><%=result%></p>
+    </div>
+  </div>
+</body>
+</html>
